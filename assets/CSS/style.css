@@ -151,3 +151,70 @@ color: #444343;
 }
 
 /* ----------About us Section End --------------- */
+
+
+
+/* ----------Plan Section Start --------------- */
+.main-plan-section{
+    padding: 90px 0px;
+}
+.plan-area-heading{
+    text-align: center;
+    padding: 40px;
+}
+.plan-area-heading h1{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+color: #151414;
+}
+.flexbox-three{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.plan-item{
+    text-align: center;
+}
+.plan-item img{
+    height: 93px;
+    width: 93px;
+}
+.plan-item h1{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 35px;
+text-align: center;
+
+
+color: #151414;
+
+}
+.plan-item p{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 29px;
+text-align: center;
+
+color: #737272;
+}
+/* ----------Plan Section End --------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
