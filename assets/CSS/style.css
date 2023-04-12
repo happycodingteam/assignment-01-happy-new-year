@@ -1,4 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
 
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
 .container{
     max-width: 1260px;
     width: 100%;
@@ -56,3 +88,66 @@ border-radius: 5px;
 padding: 21px;
 text-decoration: none;
 }
+
+
+/* ----------About us Section Start--------------- */
+.main-about-us-section{}
+.flexbox-two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 90px 0px;
+}
+.about-left-area{
+    flex-basis: 50%;
+}
+.about-left-area img{
+
+}
+.about-right-area{
+    flex-basis: 50%;
+}
+.about-right-area h1{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+color: #151414;
+margin-bottom: 20px;
+}
+.about-right-area p{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #444343;
+
+}
+.about-right-area ul{
+    list-style: none;
+    margin-top: 20px;
+}
+.about-right-area ul li{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.about-right-area ul li img{
+    height: 12px;
+    width: 12px;
+    margin-right: 10px;
+}
+.about-right-area ul li p{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: #444343;
+
+
+}
+
+/* ----------About us Section End --------------- */
