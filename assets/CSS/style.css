@@ -151,6 +151,63 @@ color: #444343;
 }
 
 /* ----------About us Section End --------------- */
+/* ----------Service Section Start --------------- */
+.main-service-section{}
+.service-heading{
+    text-align: center;
+    padding: 40px 0px;
+}
+.service-heading h1{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+.service-item{
+    text-align: center;
+    border: 1px solid #444343;
+    border-radius: 10px;
+    background-color: #F3F3F3;
+    flex-basis: 30%;
+    padding: 40px 15px;
+}
+.service-item img{
+    height: 60px;
+    width: 55px;
+}
+.service-item h1{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    color: #151414;
+    padding: 15px;
+}
+.service-item p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: center;
+    
+    color: #737272;
+}
+.service-item a{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    
+    color: #ae0d0d;
+    padding-top: 15px;
+}
+/* ----------Service Section End --------------- */
 
 
 
