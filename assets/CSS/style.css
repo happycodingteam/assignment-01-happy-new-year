@@ -257,13 +257,100 @@ z-index: 9;
 
 
 
+/* ----------Footer Section Start --------------- */
+
+.main-footer-area{
+    background: #151414;
+    padding: 100px 0px;
+}
+.flexbox-four{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-item{
+    flex-basis: 50%;
+}
+.footer-item h1{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+color: #F8F8F8;
+}
+.footer-item p{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #FFFFFF;
+padding: 20px 0px;
+
+}
+.footer-item a{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #FFFFFF;
+}
+.footer-item .social-media{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 35px;
+}
+.footer-item .social-media a{
+    margin-right: 15px;
+}
+.footer-item .social-media a img{
+    height: 47px;
+    width: 47px;
+}
+
+.footer-item h6{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 29px;
+margin-bottom: 20px;
+color: #FFFFFF;
+}
 
 
+.footer-item form input{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
 
+color: #F3F3F3;
+padding: 15px;
+background: none;
+border: 1px solid #fff;
+border-radius: 5px;
+display: block;
+}
+.footer-item .submit-button{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
 
-
-
-
+color: #F15B22;
+background: #FFFFFF;
+border-radius: 8px;
+padding: 20px 36px;
+margin-top: 20px;
+cursor: pointer;
+}
+/* ----------Footer Section End --------------- */
 
 
 
